@@ -72,7 +72,7 @@ public class RequestController {
         model.addAttribute("Jumlah", inJumlahBel);
         model.addAttribute("Total", totalbayar);
         model.addAttribute("jumDiscount", tothargadiskon);
-        model.addAttribute("disc", diskon);
+        model.addAttribute("diskon", diskon);
         model.addAttribute("Pembayaranawal",inAwal);
         model.addAttribute("jumDiskon",jum_diskon);
         model.addAttribute("ket",keterangan);
