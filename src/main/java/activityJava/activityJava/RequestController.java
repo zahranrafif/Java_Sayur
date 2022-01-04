@@ -67,13 +67,13 @@ public class RequestController {
             keterangan = "Uang Anda benar";  
         }
         
-        model.addAttribute("varSayuran", inSayur);
-        model.addAttribute("varHarga", inHarga );
-        model.addAttribute("varJumlah", inJumlahBel);
-        model.addAttribute("varTotal", totalbayar);
+        model.addAttribute("Sayuran", inSayur);
+        model.addAttribute("Harga", inHarga );
+        model.addAttribute("Jumlah", inJumlahBel);
+        model.addAttribute("Total", totalbayar);
         model.addAttribute("jumDiscount", tothargadiskon);
         model.addAttribute("disc", diskon);
-        model.addAttribute("varPembayaranawal",inAwal);
+        model.addAttribute("Pembayaranawal",inAwal);
         model.addAttribute("jumDiskon",jum_diskon);
         model.addAttribute("ket",keterangan);
         
