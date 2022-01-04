@@ -52,7 +52,7 @@ public class RequestController {
         
         Double totalbayar = tothargadiskon - diskon;    
         Double kembalian = pembayaranawal - totalbayar;       
-        Double kurang = pembayaranawal - totalbayar;
+        Double kurang =  totalbayar - pembayaranawal;
         
         if (pembayaranawal < totalbayar)
         {
