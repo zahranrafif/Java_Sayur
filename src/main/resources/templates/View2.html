@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Activity Java 28 Des</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div><h2>Checkout Sayuran</h2></div>
+        <hr>
+        <table border="1"> 
+            
+            <tr>
+                <td>Nama Sayur</td>
+                <td><b th:text="${varSayuran}"></b> </td>
+            </tr>    
+            <tr>
+                <td>Harga per kilo</td>
+                <td>Rp<b th:text="${varHarga}"></b></td>
+            </tr>
+            <tr>
+                <td>Jumlah dibeli</td>
+                <td><b th:text="${varJumlah}"></b></td>
+            </tr>
+            <tr>
+                <td>Jumlah pembayaran awal</td>
+                <td>Rp <b th:text="${varPembayaranawal}"></b></b></td>
+            </tr>
+            <tr>
+                <td>Jumlah diskon (%)</td>
+                <td><b th:text="${jumDiskon}"></b></td>
+            </tr>
+            <tr>
+                <td>Total Harga Diskon (Rp)</td>
+                <td>Rp<b th:text="${disc}"></b></td>
+            </tr>
+            <tr>
+                <td>Total bayar </td>
+                <td>Rp <b th:text="${varTotal}"></b></td>
+            </tr>
+            <tr>
+                <td>Keterangan </td>
+                <td><b th:text="${ket}"></b></td>
+            </tr>
+        </table>
+    </body>
+</html>
